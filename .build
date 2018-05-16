@@ -1,0 +1,15 @@
+{
+	"automatic_order": true,
+	"iterations": 2,
+	"mods_load_order":
+	[
+		"validates/validate.py",
+		"validates/__init__.py",
+		"utils/shell.py",
+		"main.py",
+		"langs/python.py",
+		"langs/lang_loader.py",
+		"langs/__init__.py",
+		"__init__.py"
+	]
+}
