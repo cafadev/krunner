@@ -1,0 +1,6 @@
+[
+  {
+    "keys": ["ctrl+f6"],
+    "command": "krunner"
+  }
+]
