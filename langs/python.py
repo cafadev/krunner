@@ -27,5 +27,5 @@ class Python(StandardClass):
         if self.virtualenv is not None:
             python = os.path.join(self.virtualenv, python)
 
-        command = "%s \"%s\"" % (python, self.main_file)
+        command = [python, self.main_file]
         Shell(self.window, self.shell, command, self.main_file).run()
