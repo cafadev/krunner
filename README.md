@@ -8,6 +8,7 @@ Krunner puede ejecutar tu proyecto con las siguientes terminales:
  - deepin-terminal (Deepin Terminal)
  - gnome-terminal (Gnome Terminal)
  - xcfe4-terminal (XFCE Terminal)
+ - konsole (KDE terminal)
  - xterm
 
 ## Estructura estandar del archivo `.sublime-project`
