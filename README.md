@@ -50,4 +50,16 @@ Para el ejemplo anterior la estructura del archivo `settings.sublime-project` se
 		    "shell": "TERMINAL_TO_USE"
 	    }
     }
+El modulo de python tambien te da la libertad de trabajar con entornos virtuales, para utilizar esta cualidad solo debes de indicar la ruta de la carpeta `bin/` de tu entorno virtual, como se muestra en el siguiente ejemplo:
 
+    {
+		"folders": [
+			{"path": "."}
+	    ],
+	    "krunner": {
+		    "lang": "python",
+		    "main": "main.py",
+		    "shell": "TERMINAL_TO_USE",
+		    "virtualenv": "/home/YOUR_USER/virtualenvs/VIRTUALENV_NAME/bin"
+	    }
+    }
