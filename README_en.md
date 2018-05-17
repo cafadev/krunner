@@ -1,7 +1,7 @@
 
 # Krunner
 
-[Documentation in spanish](https://github.com/kershingf/krunner/blob/master/README.md)
+[Documentación en español](https://github.com/kershingf/krunner/blob/master/README.md)
 
 Krunner is a complement developed to compile and execute code from sublime text 3 with a simple combination of keys and auxiliary of the `* .sublime-project` files provided by the editor.
 Krunner is in the alpha state and currently only allows interpretation of Python code, in future versions it includes support for Java projects, c ++, c, ruby among others.
