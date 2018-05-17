@@ -1,4 +1,7 @@
 # Krunner
+
+[English documentation](https://github.com/kershingf/krunner/blob/master/README_en.md)
+
 Krunner es un plugin desarrollado para compilar y ejecutar codigo desde sublime text 3 con una simple combinación de teclas y auxiliandose de los archivos `*.sublime-project` proporcionados por el editor.
 Krunner se encuentra en estado alfa y actualmente solo permite la interpretación de codigo Python, en futuras versiones se incluira soporte para proyectos java, c++, c, ruby entre otros.
 
