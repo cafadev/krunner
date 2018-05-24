@@ -32,7 +32,10 @@ sin embargo cada lenguaje puede agregar mas llaves para su utilización. Esta se
 	    "krunner": {
 		    "lang": "PROGRAMMING_LANGUAGE",
 		    "main": "MAIN_FILE_TO_RUN",
-		    "shell": "TERMINAL_TO_USE"
+		    "shell": "TERMINAL_TO_USE",
+		    "args": [
+		    	"HERE_ARGUMENTS"
+		    }
 	    }
 	}
 
