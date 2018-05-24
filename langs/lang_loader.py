@@ -9,6 +9,7 @@ class StandardClass(metaclass=ABCMeta):
 
     def __init__(self, window, krunner_settings):
         self.window = window
+        self.folder = self.window.extract_variables()['folder']
         self.main_file = krunner_settings['main']
         self.shell = krunner_settings['shell']
 

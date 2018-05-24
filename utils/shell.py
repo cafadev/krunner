@@ -16,11 +16,6 @@ class Shell:
                 "%s -w \"%s\" -e \"%s\"" %
                 (self.shell, folder, "\" \"".join(self.command))
             )
-        # elif self.shell == 'pantheon-terminal':
-        #     return (
-        #         "%s --working-directory=\"%s\" -e \"%s\"" %
-        #         (self.shell, folder, "ls")
-        #     )
         elif self.shell == 'gnome-terminal':
             return (
                 "%s --working-directory=\"%s\" -- \"%s\"" %
@@ -42,6 +37,11 @@ class Shell:
                 "%s --hold --workdir \"%s\" -e \"%s\"" %
                 (self.shell, folder, "\" \"".join(self.command))
             )
+        #  elif self.shell == 'pantheon-terminal':
+        #     return (
+        #         "%s --working-directory=\"%s\" -e \"%s\"" %
+        #         (self.shell, folder, "ls")
+        #     )
 
         return None
 
